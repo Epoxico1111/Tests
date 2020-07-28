@@ -1,0 +1,69 @@
+*{
+font-size: 20px;
+font-family: sans-serif;
+}
+.botonNo{
+background: #2E9A9B  ;
+width:55px;
+height:24px;
+position:absolute;
+text-align: center;
+border: 2px solid black;
+left:60% ;
+top:60%;
+}
+.botonSi{
+background:#2E9A9B  ;
+width:55px;
+height:24px;
+position:absolute;
+text-align: center;
+border: 2px solid black;
+left: 30%;
+top:60%;
+}
+.botonSi:hover{
+background: #3FFF2C;
+}
+.botonNo:hover{
+background: #3FFF2C;
+}
+.marco {
+width: 500px;
+height: 300px;
+border: 4px solid black;
+background: #4DEBED;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-top: -152px;
+margin-left: -252px;
+
+}
+.tx{
+position: relative;
+top:30%;
+text-align: center;
+}
+.quitar{
+display: none;
+}
+
+.respsi {
+width: 280px;
+height: 80px;
+text-align: center;
+background: #9B59B6;
+border: 4px solid black;
+position: absolute;
+display: block;
+top: 50%;
+left: 50%;
+margin-top: -43px;
+margin-left: -142px;
+z-index: 100;
+display: none;
+}
+.respsi__tx{
+margin: 30px 20px;
+}

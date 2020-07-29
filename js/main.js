@@ -17,7 +17,7 @@ var  maxt = 263,
 
 botonNo.style.left = numl + "px";
 botonNo.style.top = numt + "px";
-}
+};
 
 // Respuesta si
 function sii(){
@@ -25,10 +25,15 @@ function sii(){
   var ok = document.getElementsByClassName("respsi")[0];
 ok.style.display ="block";
   mover = null;
-
+};
+function verificar(){
+  x = x + 1;
 };
 //Click No
 function noo(){
+  if(x >= 1){
+
 var ko = document.getElementsByClassName("respno")[0];
   ko.style.display ="block";
+  };
 };
